@@ -17,15 +17,26 @@ This is a simple command-line calculator developed in Python. The program provid
 
 ## Requirements
 
-- **Python 3.x**: Ensure you have Python 3 installed on your system.
-- **Libraries**: Required libraries are listed in `requirements.txt`.
+- **Windows Operating System**: The application is designed specifically for Windows.
+- **Python 3.x**: Ensure you have Python 3 installed if you want to run the script directly.
+- **Libraries**: Required libraries are included in `requirements.txt` for running the script.
 
 ## Installation
+
+### Using the Executable
+
+1. **Download the executable** from the [releases page](https://github.com/ItsAmoduu/Calcolator/releases).
+
+2. **Run the executable** by double-clicking it. The application will open in a command-line window where you can interact with the calculator.
+
+### Using the Python Script
+
+If you prefer to run the Python script directly:
 
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/ItsAmoduu/Calcolator
-    cd YourRepository
+    cd Calcolator
     ```
 
 2. **Install dependencies**:
@@ -54,20 +65,38 @@ After starting the program, you will be presented with a menu with the following
 Select an option by entering the corresponding number and follow the instructions to input numbers and get the result.
 
 ### Preview
-![image](https://github.com/ItsAmoduu/Calcolator/blob/main/Screenshot%202024-08-25%20013528.png)
+![Screenshot](https://github.com/ItsAmoduu/Calcolator/blob/main/Screenshot%202024-08-25%20013528.png)
 
 ## Author
 
-👋 Hi! I'm Alessandro, also known as Allofamodu. A tech enthusiast and developer with experience in Python, JavaScript, HTML, CSS, and C#. If you have any questions or suggestions, feel free to contact me on [Discord](https://discord.com/users/980503856574259251)
-- [support server](https://discord.gg/MCcgkBgCFr)
+👋 Hi! I'm Alessandro, also known as Allofamodu. A tech enthusiast and developer with experience in Python, JavaScript, HTML, CSS, and C#. If you have any questions or suggestions, feel free to contact me on [Discord](https://discord.com/users/980503856574259251) or join my [support server](https://discord.gg/MCcgkBgCFr).
 
 ---
 
 Feel free to contribute to the project by submitting issues or pull requests. Happy coding!
 
+### Additional Notes
 
-### Note aggiuntive:
-
-- Assicurati di avere un file `requirements.txt` aggiornato nel tuo repository che includa tutte le librerie necessarie per eseguire il progetto. Ad esempio:
+- Ensure that the `requirements.txt` file in the repository is up-to-date and includes all necessary libraries for running the project. For example:
   ```txt
   colorama
+If you need to update or recompile the .exe package, you can use tools like PyInstaller.
+markdown
+Copia codice
+
+### Key Points:
+
+1. **Executable Installation**:
+   - Instructions on downloading and running the `.exe` file.
+
+2. **Python Script Installation**:
+   - Instructions for those who want to work with the Python source code.
+
+3. **Preview Image**:
+   - A link to a screenshot of the application for visual reference.
+
+4. **Author Information**:
+   - Contact details and links to Discord for support and interaction.
+
+5. **Additional Notes**:
+   - Information about keeping the `requirements.txt` up-to-date and recompiling the executable if needed.
