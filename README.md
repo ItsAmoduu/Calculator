@@ -54,7 +54,7 @@ After starting the program, you will be presented with a menu with the following
 Select an option by entering the corresponding number and follow the instructions to input numbers and get the result.
 
 ### Preview
-![image]
+![image](https://github.com/ItsAmoduu/Calcolator/blob/main/Screenshot%202024-08-25%20013528.png)
 ![image]
 
 ## Author
