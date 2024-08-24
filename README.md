@@ -24,7 +24,7 @@ This is a simple command-line calculator developed in Python. The program provid
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/YourUsername/YourRepository.git
+    git clone https://github.com/ItsAmoduu/Calcolator
     cd YourRepository
     ```
 
