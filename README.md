@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple command-line calculator developed in Python. It provides basic operations such as addition, subtraction, multiplication, division, and comparison between two numbers. The project is available both as a Python script and as a compiled executable for Windows.
+This is a simple command-line calculator developed in Python. It provides basic operations such as addition, subtraction, multiplication, division, and comparison between two numbers. The project is available both as a Python script and as a compiled executable for Windows, macOS, and Linux.
 
 ## Features
 
@@ -17,8 +17,8 @@ This is a simple command-line calculator developed in Python. It provides basic 
 
 ## Requirements
 
-- **Python 3.x**: Ensure you have Python 3 installed on your system.
-- **Libraries**: Required libraries are listed in `requirements.txt`.
+- **Python 3.x**: Ensure you have Python 3 installed on your system (for the Python script).
+- **Libraries**: Required libraries are listed in `requirements.txt` (for the Python script).
 
 ## Installation
 
@@ -35,22 +35,38 @@ This is a simple command-line calculator developed in Python. It provides basic 
     pip install -r requirements.txt
     ```
 
-3. **Download `admin_error.py`**:
+3. **Download or create `admin_error.py`**:
     - Ensure that `admin_error.py` is in the same directory as `main.py`. This file is used for administrative checks.
-    - You can download `admin_error.py` from [this link](https://github.com/ItsAmoduu/Calcolator/blob/main/admin_error.py).
+    - You can view or download `admin_error.py` from [this link](https://github.com/ItsAmoduu/Calcolator/blob/main/admin_error.py).
 
 4. **Run the script**:
-    ```bash
-    python main.py
-    ```
+    - **On Windows**:
+      ```bash
+      python main.py
+      ```
+    - **On macOS and Linux**:
+      ```bash
+      python3 main.py
+      ```
 
-### For Executable (Windows) 💻
+### For Executable 💻
 
-1. **Download the executable** from the [releases page](https://github.com/ItsAmoduu/Calcolator/releases).
+1. **Download the executable**:
+    - **Windows**: [Download here](https://github.com/ItsAmoduu/Calcolator/releases)
+    - **macOS**: [Download here](https://github.com/ItsAmoduu/Calcolator/releases)
+    - **Linux**: [Download here](https://github.com/ItsAmoduu/Calcolator/releases)
 
 2. **Run the executable**:
-    - Double-click the `.exe` file to start the calculator.
-    - Ensure you run the application as an Administrator if required.
+    - **On Windows**: Double-click the `.exe` file.
+    - **On macOS**: Double-click the `.app` file or run the terminal command:
+      ```bash
+      ./Calculator.app/Contents/MacOS/Calculator
+      ```
+    - **On Linux**: Make the file executable and run it:
+      ```bash
+      chmod +x Calculator
+      ./Calculator
+      ```
 
 ## Usage
 
