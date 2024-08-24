@@ -1,4 +1,4 @@
-# Command-Line Calculator
+# Command-Line Calculator 🧮
 
 ## Description
 
@@ -6,14 +6,14 @@ This is a simple command-line calculator developed in Python. It provides basic 
 
 ## Features
 
-- **Addition**: Calculates the sum of two numbers.
-- **Subtraction**: Computes the difference between two numbers.
-- **Multiplication**: Multiplies two numbers.
-- **Division**: Divides two numbers and handles division by zero.
-- **Equality**: Compares two numbers and indicates if they are equal, less than, or greater than each other.
-- **Info**: Displays information about the project and the developer.
-- **Help**: Provides user guidance.
-- **Exit**: Closes the program.
+- **Addition** ➕: Calculates the sum of two numbers.
+- **Subtraction** ➖: Computes the difference between two numbers.
+- **Multiplication** ✖️: Multiplies two numbers.
+- **Division** ➗: Divides two numbers and handles division by zero.
+- **Equality** 🔍: Compares two numbers and indicates if they are equal, less than, or greater than each other.
+- **Info** ℹ️: Displays information about the project and the developer.
+- **Help** ❓: Provides user guidance.
+- **Exit** 🚪: Closes the program.
 
 ## Requirements
 
@@ -22,7 +22,7 @@ This is a simple command-line calculator developed in Python. It provides basic 
 
 ## Installation
 
-### For Python Script
+### For Python Script 🐍
 
 1. **Clone the repository**:
     ```bash
@@ -44,7 +44,7 @@ This is a simple command-line calculator developed in Python. It provides basic 
     python main.py
     ```
 
-### For Executable (Windows)
+### For Executable (Windows) 💻
 
 1. **Download the executable** from the [releases page](https://github.com/ItsAmoduu/Calcolator/releases).
 
@@ -56,14 +56,14 @@ This is a simple command-line calculator developed in Python. It provides basic 
 
 After starting the program, you will be presented with a menu with the following options:
 
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. Equality
-6. Info
-7. Help
-8. Exit
+1. Addition ➕
+2. Subtraction ➖
+3. Multiplication ✖️
+4. Division ➗
+5. Equality 🔍
+6. Info ℹ️
+7. Help ❓
+8. Exit 🚪
 
 Select an option by entering the corresponding number and follow the instructions to input numbers and get the result.
 
@@ -77,4 +77,4 @@ Select an option by entering the corresponding number and follow the instruction
 
 ---
 
-Feel free to contribute to the project by submitting issues or pull requests. Happy coding!
+Feel free to contribute to the project by submitting issues or pull requests. Happy coding! 🎉
