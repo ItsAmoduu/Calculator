@@ -53,9 +53,14 @@ After starting the program, you will be presented with a menu with the following
 
 Select an option by entering the corresponding number and follow the instructions to input numbers and get the result.
 
+### Preview
+![image]
+![image]
+
 ## Author
 
-👋 Hi! I'm Alessandro, also known as Allofamodu. A tech enthusiast and developer with experience in Python, JavaScript, HTML, CSS, and C#. If you have any questions or suggestions, feel free to contact me on [Discord](https://discord.com/users/980503856574259251).
+👋 Hi! I'm Alessandro, also known as Allofamodu. A tech enthusiast and developer with experience in Python, JavaScript, HTML, CSS, and C#. If you have any questions or suggestions, feel free to contact me on [Discord](https://discord.com/users/980503856574259251)
+- [support server](https://discord.gg/MCcgkBgCFr)
 
 ---
 
