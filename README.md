@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple command-line calculator developed in Python. The program provides basic operations such as addition, subtraction, multiplication, division, and comparison between two numbers. It is designed for Windows systems and utilizes various libraries to enhance the user interface and error handling.
+This is a simple command-line calculator developed in Python. It provides basic operations such as addition, subtraction, multiplication, division, and comparison between two numbers. The project is available both as a Python script and as a compiled executable for Windows.
 
 ## Features
 
@@ -17,24 +17,12 @@ This is a simple command-line calculator developed in Python. The program provid
 
 ## Requirements
 
-- **Windows Operating System**: The application is designed specifically for Windows.
-- **Python 3.x**: Required if you choose to run the script directly.
+- **Python 3.x** (for running the Python script)
 - **Libraries**: Required libraries are listed in `requirements.txt`.
 
 ## Installation
 
-### Using the Executable
-
-1. **Download the executable** from the [releases page](https://github.com/ItsAmoduu/Calcolator/releases).
-
-2. **Run the executable as an administrator**:
-   - Right-click the `.exe` file.
-   - Select "Run as administrator."
-   - The application will open in a command-line window where you can interact with the calculator.
-
-### Using the Python Script
-
-If you prefer to run the Python script directly:
+### For Python Script:
 
 1. **Clone the repository**:
     ```bash
@@ -47,10 +35,18 @@ If you prefer to run the Python script directly:
     pip install -r requirements.txt
     ```
 
-3. **Run the calculator**:
+3. **Run the script**:
     ```bash
     python main.py
     ```
+
+### For Executable (Windows):
+
+1. **Download the executable** from the [releases page](https://github.com/ItsAmoduu/Calcolator/releases).
+
+2. **Run the executable**:
+    - Double-click the `.exe` file to start the calculator.
+    - Ensure you run the application as an Administrator if required.
 
 ## Usage
 
@@ -68,29 +64,12 @@ After starting the program, you will be presented with a menu with the following
 Select an option by entering the corresponding number and follow the instructions to input numbers and get the result.
 
 ### Preview
-![Screenshot](https://github.com/ItsAmoduu/Calcolator/blob/main/Screenshot%202024-08-25%20013528.png)
+![image](https://github.com/ItsAmoduu/Calcolator/blob/main/Screenshot%202024-08-25%20013528.png)
 
 ## Author
 
-👋 Hi! I'm Alessandro, also known as Allofamodu. A tech enthusiast and developer with experience in Python, JavaScript, HTML, CSS, and C#. If you have any questions or suggestions, feel free to contact me on [Discord](https://discord.com/users/980503856574259251) or join my [support server](https://discord.gg/MCcgkBgCFr).
+👋 Hi! I'm Alessandro, also known as Allofamodu. A tech enthusiast and developer with experience in Python, JavaScript, HTML, CSS, and C#. If you have any questions or suggestions, feel free to contact me on [Discord](https://discord.com/users/980503856574259251) or join the [support server](https://discord.gg/MCcgkBgCFr).
 
 ---
 
 Feel free to contribute to the project by submitting issues or pull requests. Happy coding!
-
-### Additional Notes
-
-- Ensure that the `requirements.txt` file in the repository is up-to-date and includes all necessary libraries for running the project. For example:
-  ```txt
-  colorama
-If you need to update or recompile the .exe package, you can use tools like PyInstaller.
-
-For any issues or bugs, please refer to the Issues section of the repository.
-
-markdown
-Copia codice
-
-### Summary of Updates:
-
-1. **Running as Administrator**: Added instructions to run the executable with administrative privileges.
-2. **General Updates**: Ensured the rest of the instructions were accurate and helpful.
