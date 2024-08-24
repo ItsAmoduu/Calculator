@@ -60,3 +60,10 @@ Select an option by entering the corresponding number and follow the instruction
 ---
 
 Feel free to contribute to the project by submitting issues or pull requests. Happy coding!
+
+
+### Note aggiuntive:
+
+- Assicurati di avere un file `requirements.txt` aggiornato nel tuo repository che includa tutte le librerie necessarie per eseguire il progetto. Ad esempio:
+  ```txt
+  colorama
