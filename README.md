@@ -55,7 +55,6 @@ Select an option by entering the corresponding number and follow the instruction
 
 ### Preview
 ![image](https://github.com/ItsAmoduu/Calcolator/blob/main/Screenshot%202024-08-25%20013528.png)
-![image]
 
 ## Author
 
