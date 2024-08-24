@@ -35,9 +35,9 @@ This is a simple command-line calculator developed in Python. It provides basic 
     pip install -r requirements.txt
     ```
 
-3. **Download or create `admin_error.py`**:
+3. **Download `admin_error.py`**:
     - Ensure that `admin_error.py` is in the same directory as `main.py`. This file is used for administrative checks.
-    - You can view or download `admin_error.py` from [this link](https://github.com/ItsAmoduu/Calcolator/blob/main/admin_error.py).
+    - You can download `admin_error.py` from [this link](https://github.com/ItsAmoduu/Calcolator/blob/main/admin_error.py).
 
 4. **Run the script**:
     ```bash
