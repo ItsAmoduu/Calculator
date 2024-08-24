@@ -1,22 +1,21 @@
 import os
 import sys
 import time
-import ctypes
-import colorama
-from colorama import Fore, Style
+import platform
+from colorama import Fore, Style, init
 
-# Inizializza colorama
-colorama.init()
+# Initialize colorama
+init()
 
 def center_text(text, width):
-    """Centra il testo in una larghezza specificata."""
+    """Center text in a specified width."""
     lines = text.split('\n')
     centered_lines = [line.center(width) for line in lines]
     return '\n'.join(centered_lines)
 
 def show_admin_error():
-    """Mostra un messaggio di errore e termina il programma se non si è amministratori."""
-    # Definisci l'ASCII art in rosso
+    """Displays an error message and exits the program if not run as admin."""
+    # Define the ASCII art in red
     ascii_art = f"""
 {Fore.RED}
 ███████╗██████╗ ██████╗  ██████╗ ██████╗
@@ -28,41 +27,45 @@ def show_admin_error():
 {Style.RESET_ALL}
 """
 
-    # Messaggio di errore con colore rosso
+    # Error message with red color
     error_message = f"""
 {Fore.RED}
 ==============================
-[♯] Error, please open the Tool as Administrator. (!) ({{}})
+[♯] Error, please run the tool as Administrator. (!) ({{}})
 ==============================
 {Style.RESET_ALL}
 """
 
-    # Calcola la larghezza del terminale
+    # Calculate terminal width
     try:
         terminal_width = os.get_terminal_size().columns
     except AttributeError:
-        terminal_width = 80  # Imposta una larghezza predefinita se non riesce a ottenere la larghezza del terminale
+        terminal_width = 80  # Default width if unable to get terminal size
 
-    # Centra l'ASCII art e il messaggio di errore
+    # Center the ASCII art and error message
     centered_art = center_text(ascii_art, terminal_width)
 
     for i in range(5, 0, -1):
-        # Pulizia del terminale e stampa dell'ASCII art e del messaggio di errore aggiornato
-        os.system('cls' if os.name == 'nt' else 'clear')
+        # Clear the console and print the centered ASCII art and error message
+        os.system('cls' if platform.system() == 'Windows' else 'clear')
         print(centered_art)
-        print(center_text(error_message.format(i), terminal_width))  # Aggiorna il countdown
+        print(center_text(error_message.format(i), terminal_width))  # Update countdown
         time.sleep(1)
 
-    # Esci direttamente senza ulteriori messaggi
+    # Exit the program
     sys.exit(1)
 
 def is_admin():
-    """Verifica se il programma è eseguito con privilegi di amministratore."""
-    try:
-        return os.getuid() == 0
-    except AttributeError:
+    """Check if the script is run with admin privileges."""
+    if platform.system() == 'Windows':
+        import ctypes
         return ctypes.windll.shell32.IsUserAnAdmin() != 0
+    else:
+        try:
+            return os.getuid() == 0
+        except AttributeError:
+            return False
 
-# Esegui la funzione di controllo amministrativo
+# Run the admin check
 if not is_admin():
     show_admin_error()
