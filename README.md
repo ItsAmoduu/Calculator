@@ -18,8 +18,8 @@ This is a simple command-line calculator developed in Python. The program provid
 ## Requirements
 
 - **Windows Operating System**: The application is designed specifically for Windows.
-- **Python 3.x**: Ensure you have Python 3 installed if you want to run the script directly.
-- **Libraries**: Required libraries are included in `requirements.txt` for running the script.
+- **Python 3.x**: Required if you choose to run the script directly.
+- **Libraries**: Required libraries are listed in `requirements.txt`.
 
 ## Installation
 
@@ -27,7 +27,10 @@ This is a simple command-line calculator developed in Python. The program provid
 
 1. **Download the executable** from the [releases page](https://github.com/ItsAmoduu/Calcolator/releases).
 
-2. **Run the executable** by double-clicking it. The application will open in a command-line window where you can interact with the calculator.
+2. **Run the executable as an administrator**:
+   - Right-click the `.exe` file.
+   - Select "Run as administrator."
+   - The application will open in a command-line window where you can interact with the calculator.
 
 ### Using the Python Script
 
@@ -81,22 +84,13 @@ Feel free to contribute to the project by submitting issues or pull requests. Ha
   ```txt
   colorama
 If you need to update or recompile the .exe package, you can use tools like PyInstaller.
+
+For any issues or bugs, please refer to the Issues section of the repository.
+
 markdown
 Copia codice
 
-### Key Points:
+### Summary of Updates:
 
-1. **Executable Installation**:
-   - Instructions on downloading and running the `.exe` file.
-
-2. **Python Script Installation**:
-   - Instructions for those who want to work with the Python source code.
-
-3. **Preview Image**:
-   - A link to a screenshot of the application for visual reference.
-
-4. **Author Information**:
-   - Contact details and links to Discord for support and interaction.
-
-5. **Additional Notes**:
-   - Information about keeping the `requirements.txt` up-to-date and recompiling the executable if needed.
+1. **Running as Administrator**: Added instructions to run the executable with administrative privileges.
+2. **General Updates**: Ensured the rest of the instructions were accurate and helpful.
