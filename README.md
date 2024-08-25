@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple command-line calculator developed in Python. It provides basic operations such as addition, subtraction, multiplication, division, and comparison between two numbers. The project is available both as a Python script and as a compiled executable for Windows, macOS, and Linux.
+This is a command-line calculator developed in Python that supports basic arithmetic operations and comparisons. It works on Windows, macOS, and Linux. You can use it either by running the Python script or by using the compiled executable.
 
 ## Features
 
@@ -10,15 +10,10 @@ This is a simple command-line calculator developed in Python. It provides basic 
 - **Subtraction** ➖: Computes the difference between two numbers.
 - **Multiplication** ✖️: Multiplies two numbers.
 - **Division** ➗: Divides two numbers and handles division by zero.
-- **Equality** 🔍: Compares two numbers and indicates if they are equal, less than, or greater than each other.
-- **Info** ℹ️: Displays information about the project and the developer.
-- **Help** ❓: Provides user guidance.
+- **Equality** 🔍: Compares two numbers to check if they are equal, less than, or greater than each other.
+- **Info** ℹ️: Provides information about the project and the developer.
+- **Help** ❓: Gives usage instructions.
 - **Exit** 🚪: Closes the program.
-
-## Requirements
-
-- **Python 3.x**: Ensure you have Python 3 installed on your system (for the Python script).
-- **Libraries**: Required libraries are listed in `requirements.txt` (for the Python script).
 
 ## Installation
 
@@ -35,9 +30,8 @@ This is a simple command-line calculator developed in Python. It provides basic 
     pip install -r requirements.txt
     ```
 
-3. **Download or create `admin_error.py`**:
-    - Ensure that `admin_error.py` is in the same directory as `main.py`. This file is used for administrative checks.
-    - You can view or download `admin_error.py` from [this link](https://github.com/ItsAmoduu/Calcolator/blob/main/admin_error.py).
+3. **Ensure `admin_error.py` is included**:
+    - The `admin_error.py` file must be in the same directory as `main.py`. You can view or download it from [here](https://github.com/ItsAmoduu/Calcolator/blob/main/admin_error.py).
 
 4. **Run the script**:
     - **On Windows**:
@@ -52,13 +46,11 @@ This is a simple command-line calculator developed in Python. It provides basic 
 ### For Executable 💻
 
 1. **Download the executable**:
-    - **Windows**: [Download here](https://github.com/ItsAmoduu/Calcolator/releases)
-    - **macOS**: [Download here](https://github.com/ItsAmoduu/Calcolator/releases)
-    - **Linux**: [Download here](https://github.com/ItsAmoduu/Calcolator/releases)
+    - You can download the appropriate executable for your platform from the [releases page](https://github.com/ItsAmoduu/Calcolator/releases).
 
 2. **Run the executable**:
     - **On Windows**: Double-click the `.exe` file.
-    - **On macOS**: Double-click the `.app` file or run the terminal command:
+    - **On macOS**: Open the `.app` file or run the terminal command:
       ```bash
       ./Calculator.app/Contents/MacOS/Calculator
       ```
@@ -70,7 +62,7 @@ This is a simple command-line calculator developed in Python. It provides basic 
 
 ## Usage
 
-After starting the program, you will be presented with a menu with the following options:
+After starting the program, you will see a menu with the following options:
 
 1. Addition ➕
 2. Subtraction ➖
@@ -81,7 +73,12 @@ After starting the program, you will be presented with a menu with the following
 7. Help ❓
 8. Exit 🚪
 
-Select an option by entering the corresponding number and follow the instructions to input numbers and get the result.
+Select an option by entering the corresponding number and follow the prompts to input numbers and get the result.
+
+## Important Notes
+
+- **Administrative Permissions**: On some systems, administrative permissions may be required. If running the Python script or executable, ensure you have the necessary permissions.
+- **Compatibility**: The provided executable works on Windows, macOS, and Linux. Make sure to download the correct version for your operating system.
 
 ### Preview
 
