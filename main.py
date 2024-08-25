@@ -12,7 +12,6 @@ locale.setlocale(locale.LC_ALL, '')
 TITLE = "Calculator | Developed by Alessandro"
 
 def set_console_title():
-    """Set the console title for Windows."""
     if platform.system() == 'Windows':
         import ctypes
         ctypes.windll.kernel32.SetConsoleTitleW(TITLE)
