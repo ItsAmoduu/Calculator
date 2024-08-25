@@ -46,9 +46,12 @@ This is a command-line calculator developed in Python that supports basic arithm
 ### For Executable 💻
 
 1. **Download the executable**:
-    - You can download the appropriate executable for your platform from the [releases page](https://github.com/ItsAmoduu/Calcolator/releases).
+    - Download the appropriate executable for your platform from the [releases page](https://github.com/ItsAmoduu/Calcolator/releases).
 
-2. **Run the executable**:
+2. **Ensure `admin_error.py` is included**:
+    - For the executable version, ensure that the `admin_error.py` file is in the same directory as the executable. This file is required for the executable to handle administrative permissions properly.
+
+3. **Run the executable**:
     - **On Windows**: Double-click the `.exe` file.
     - **On macOS**: Open the `.app` file or run the terminal command:
       ```bash
@@ -77,8 +80,9 @@ Select an option by entering the corresponding number and follow the prompts to 
 
 ## Important Notes
 
-- **Administrative Permissions**: On some systems, administrative permissions may be required. If running the Python script or executable, ensure you have the necessary permissions.
+- **Administrative Permissions**: Both the Python script and the executable may require administrative permissions to run properly. Make sure you have the necessary permissions, and if you encounter issues, try running as an administrator.
 - **Compatibility**: The provided executable works on Windows, macOS, and Linux. Make sure to download the correct version for your operating system.
+- **File Requirement**: The `admin_error.py` file is necessary for both the Python script and executable. Ensure it is in the same directory as `main.py` or the executable for proper functionality.
 
 ### Preview
 
