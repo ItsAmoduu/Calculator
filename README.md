@@ -79,7 +79,7 @@ Select an option by entering the corresponding number and follow the prompts to 
 
 ### Preview
 
-![Calculator Screenshot](https://github.com/ItsAmoduu/Calcolator/blob/main/Screenshot%202024-08-25%20013528.png)
+![Calculator Screenshot](https://github.com/ItsAmoduu/Calcolator/blob/main/CalculatorMen%C3%B9.png)
 
 ## Author
 
